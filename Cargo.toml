@@ -1,13 +1,13 @@
 [package]
-name = "${API_NAME_UNDERSCORE}"
+name = "httpbin_anything"
 version = "0.1.0"
 edition = "2021"
-description = "${API_DESCRIPTION}"
+description = "Test API: echoes a path segment via httpbin.org/anything"
 license = "MIT"
-repository = "https://github.com/AIWander/mcp-${API_NAME_DASH}"
+repository = "https://github.com/AIWander/mcp-httpbin-anything"
 
 [[bin]]
-name = "${API_NAME_DASH}"
+name = "httpbin-anything"
 path = "src/main.rs"
 
 [dependencies]
